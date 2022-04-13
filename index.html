@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>Course</title>
+		<link rel="icon" type="image/png" href="img/favicon.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="font/fonts.css">
+		<link rel="stylesheet" href="css/custom.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.10.3.custom.css"><script src="http://maps.googleapis.com/maps/api/js?sensor=true" type="text/javascript"></script>
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-ui.js"></script>
+		<script src="js/html5shiv.js"></script>
+		<script src="js/jquery.reveal.js"></script>
+		<script src="js/custom.js"></script>
+		<?php require "send/main.php"; ?>
+	</head>
+	<body>
+		<section id="menu">
+			<div class="wrapper">
+				<div class="in">
+					<nav>
+						<a href="#statistic">About our course</a>
+						<a href="#pricing">Price</a>
+						<a href="#how_do_we_work">How it works</a>
+						<a href="#feedback">Why us?</a>
+					</nav>
+				</div>
+			</div>
+		</section>
+		<section id="header">
+			<div class="wrapper">
+				<div class="top" id="statistic">
+					<div class="pull-left">
+						<a href="#"><span class="one">The Best</span> <span class="two">Javascript course<span></a>
+						<hr>
+						<span class="learn">Learn Javascript in 3-4 months</span> 
+					</div>
+					<div class="pull-right">
+						<div class="phone">+1 111 11 11</div>
+						<a href="#" class="phone-l" data-reveal-id="recall"><span class="red">C</span>all me and ask any questions!</a>
+					</div>
+					<div class="clr"></div>
+					<div class="advertisment">
+						<h1>Go through all the stages of JavaScript step by step and you can learn programming with us faster
+						</h1>
+					</div>
+					<div id="tf">
+						<div id="glass-form">
+							<h2><span class="red">L</span>earn JS several times faster! <br>You will learn a programming language in <span class="red">3-4</span> months</h2>
+							<form action="send" method="get">
+								<input type="text" name="name" class="name" placeholder="name">
+								<input type="text" name="phone" class="phone" placeholder="phone">
+								<input type="text" name="email" class="email" placeholder="email">
+								<input type="submit" value="want to get it!">
+								<input type="hidden" name="utm" value="<?php echo $utm?>">
+								<input type="hidden" name="site" value="<?php echo $site?>">
+								<input type="hidden" name="price" value="<?php echo $price?>"> 
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div id="divider"></div>
+		<section id="tablets">
+			<div class="wrapper" style="width: 520px;">
+				<div class="mn mv1 pull-left">Quick<br> 
+					learning!
+				</div>
+				<div class="mn mv2 pull-right">Understand all 8 data types quickly!
+				</div>
+				<div class="clr"></div>
+				<div class="mn mv3 pull-left">Work in any niche
+					on the result
+				</div>
+				<div class="mn mv4 pull-right">Hassle-free learning!
+				</div>
+				<div class="clr"></div>
+			</div>
+		</section>
+		<section id="pricing">
+			<div class="wrapper">
+				<h2>The cost of our course today</h2>
+				<div class="pull-left">
+					the price is active until 31.04
+				</div>
+				<p3 class="value__one">99 $</p3>
+				<div class="pull-right">
+					<a href="#" data-reveal-id="recall">Book it!</a>
+				</div>
+				<div class="clr"></div>
+			</div>
+		</section>
+		<section id="dont_understand">
+			<div id="mac"></div>
+			
+				<div class="wrapper">
+					<h2>I've been trying to figure it out for a long time, but I don't understand anything :(</h2>
+					<p>Write your contact details and we will contact you!
+					</p>
+					<form action="send" method="get">
+						<input type="text" name="name" class="name" placeholder="Name">
+						<input type="text" name="phone" class="phone" placeholder="Phone">
+						<input type="text"name="email"  class="email" placeholder="Email">
+						<textarea name="comments" class="" id="" cols="30" rows="3" placeholder="Comment:"></textarea>
+						<div style="height: 60px;">
+							<input type="submit" value="Submit">
+						</div>
+						<input type="hidden" name="utm" value="<?php echo $utm?>">
+						<input type="hidden" name="site" value="<?php echo $site?>">
+						<input type="hidden" name="price" value="<?php echo $price?>">
+					</form>
+				</div>
+			
+		</section>
+		<section id="problems">
+			<div class="wrapper">
+				<h2> PROBLEMS <br>
+					WHAT A BEGINNER PROGRAMMER <br>
+					ENCOUNTERS
+				</h2>
+				<table>
+					<tr>
+						<td><img src="img/no.png" alt=""></td>
+						<td>No clear learning plan</td>
+					</tr>
+					<tr>
+						<td><img src="img/no.png" alt=""></td>
+						<td>faces difficult material flow </td>
+					</tr>
+					<tr>
+						<td><img src="img/no.png" alt=""></td>
+						<td>Choose the wrong learning strategy</td>
+					</tr>
+					<tr>
+						<td><img src="img/no.png" alt=""></td>
+						<td>Studying only old broken technologies</td>
+					</tr>
+					<tr>
+						<td><img src="img/no.png" alt=""></td>
+						<td>Receive courses in which little technology is provided for today</td>
+					</tr>
+				</table>
+				<h2> WHY 419 STUDENTS ALREADY CHOOSE MY COURSE?</h2>
+			</div>
+		</section>
+		<section id="google_fail">
+			<div class="wrapper">
+				<h2>DURING CREATION OF THE COURSE, WE GENERATED ONE OF THE MOST EFFECTIVE LEARNING TRIPS!
+				</h2>
+			</div>
+		</section>
+		<section id="how_do_we_work">
+			<div class="wrapper">
+				<h2>HOW do we teach?</h2>
+				<h3>leave a request and we will contact you IMMEDIATELY!
+				</h3>
+			
+			</div>
+				
+			</div>
+		</section>
+		<div id="spec_2" style="height: 60px;">
+							<a href="#" id="spec" data-reveal-id="recall">Submit!</a>
+		<section id="feedback">
+			<div class="wrapper">
+				<h2>YOU WILL FEEL THE RESULTS OF OUR WORK IN A MONTH!</h2>
+				<div class="item">
+					<div class="pull-left">
+						<h3>WE ARE SURE YOU WILL LIKE OUR LEARNING SYSTEM AND APPROACH TO THE LEARNING PROCESS</h3>
+						<a href="#" class="slv" data-reveal-id="recall-need">I SO WANT!</a>
+					</div>
+					
+					<div class="clr"></div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="wrapper">
+				<div class="pull-left">
+					<a href="#"><span class="one">My Java Script</span> <span class="two">Course<span></a>
+					<hr>
+					We train everyone who is ready to get a new profession!
+				</div>
+				<div class="pull-right">
+					<div class="phone">+1 111 11 11</div>
+					<a href="#" class="phone-l" data-reveal-id="recall">Order call</a>
+				</div>
+				<div class="clr"></div>
+			</div>
+		</footer>
+
+		<div id="recall" class="reveal-modal">
+		    <h3>Submit your application!</h3>
+		    <form action="send" method="get">
+		    	<input type="text" name="name" class="name" placeholder="Name">
+		    	<input type="text" name="phone" class="phone" placeholder="Phone">
+		    	<input type="submit" value="book it!">
+				<input type="hidden" name="utm" value="<?php echo $utm?>">
+				<input type="hidden" name="site" value="<?php echo $site?>">
+				<input type="hidden" name="price" value="<?php echo $price?>">
+		    </form>
+		    <a class="close-reveal-modal">&#215;</a>
+		</div>
+		<div id="recall-need" class="reveal-modal">
+		    <h3>Order It</h3>
+		    <form action="send" method="get">
+		    	<input type="hidden" name="check_in" value="form-3">
+		    	<input type="text" name="name" class="name" placeholder="Name">
+		    	<input type="text" name="phone" class="phone" placeholder="Phone">
+		    	<input type="text" name="email" class="mail" placeholder="Email">
+		    	<input type="submit" value="Book it!">
+				<input type="hidden" name="utm" value="<?php echo $utm?>">
+				<input type="hidden" name="site" value="<?php echo $site?>">
+				<input type="hidden" name="price" value="<?php echo $price?>">
+		    </form>
+		    <a class="close-reveal-modal">&#215;</a>
+		</div>
+		<div id="table-call" class="reveal-modal">
+		    <h3 style="font-size: 40px;"><span class="red">З</span>аказать <span class="red">н</span>астройку:</h3>
+		    <form action="send" method="get">
+		    	<input type="text" name="name" class="name" placeholder="Введите Ваше Имя:">
+		    	<input type="text" name="phone" class="phone" placeholder="Введите Ваш номер телефона:">
+		    	<input type="text" name="email" class="mail" placeholder="Введите Вашу почту:">
+		    	<p style="display: block; padding: 10px 0px; font-size: 20px;">Вы выбрали настройку: <span id="nastr"></span></p>
+		    	<input type="hidden" name="type" value="" id="dsd">
+		    	<input type="submit" value="Оставить заявку">
+				<input type="hidden" name="utm" value="<?php echo $utm?>">
+				<input type="hidden" name="site" value="<?php echo $site?>">
+				<input type="hidden" name="price" value="<?php echo $price?>">
+		    </form>
+		    <a class="close-reveal-modal">&#215;</a>
+		</div>  
+	</body>
+</html>
