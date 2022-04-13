@@ -1195,6 +1195,74 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7da00', end
 }
 
 
+/* @media (max-width: 361px){
+	body {
+		max-width: 361px;
+	}
+	#feedback a.slv {
+		max-width: 100%;
+		margin-right: 20px;
+	}
+	#menu {
+		max-width: 87.5%;
+	}
+}
+
+@media (max-width: 375px){
+
+	.wrapper {
+		max-width: 100%;
+	}
+	#header #tf {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+@media (max-width: 413px){
+	body {
+		min-width: 100%;
+	}
+}
+@media (max-width: 415px){
+	body {
+		min-width: 100%;
+	}
+	#glass-form input[type="submit"] {
+		max-width: 100%;
+	}
+	#feedback .item .pull-left {
+		max-width: 100%;
+	}
+	#feedback a.slv {
+		max-width: 59%;
+		margin-right: 20px;
+	}
+	#header #tf {
+		max-width: 100%;
+	}
+}
+@media (max-width: 820px){
+	body {
+		min-width: 121%;
+	}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (width: 359px){
 	body {
 		width: 359px;
@@ -1209,6 +1277,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7da00', end
 	#header #tf {
 		padding-left: 0;
 		padding-right: 0;
+	}
+	#feedback .item .pull-left {
+		max-width: 100%;
 	}
 }
 @media (max-width: 413px){
