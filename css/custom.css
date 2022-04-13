@@ -2,6 +2,35 @@
 body {
 	font-family: 'MyriadProCondensed';
 }
+@media (max-width: 820px){
+	body {
+		min-width: 121%;
+	}
+}
+@media (max-width: 415px){
+	body {
+		min-width: 256%;
+	}
+}
+@media (max-width: 413px){
+	body {
+		min-width: 256%;
+	}
+}
+@media (max-width: 376px){
+	body {
+		min-width: 256%;
+	}
+}
+@media (max-width: 359px){
+	body {
+		min-width: 267%;
+	}
+}
+
+
+
+
 
 .pull-left {
 	float: left;
