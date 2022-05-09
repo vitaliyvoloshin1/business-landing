@@ -25,7 +25,9 @@ body {
 	font-size: 24px;
 	/* color: white; */
 }
-
+.wrapper h3 {
+	color: white;
+}
 .red {
 	color: #ff0000 !important;
 }
@@ -40,7 +42,7 @@ body {
 }
 
 #menu .wrapper .in {
-	padding: 0px 70px;
+	padding: 0px 108px;
 	font-weight: bold;
 	font-size: 25px;
 	min-height: 26px;
@@ -261,7 +263,7 @@ background: url(data: image/svg+xml;
 
 #statistic {
 	min-height: 200px;
-	padding-top: 50px;
+	padding-top: 62px;
 	width: 100%;
 }
 
@@ -1089,6 +1091,11 @@ width: 290px;
 
 border-bottom: 5px solid #880000;
 cursor: pointer;
+}
+
+
+footer .pull-left {
+	margin-left: 89px;
 }
 
 footer .pull-left a {
